@@ -9,11 +9,11 @@ Film.delete_all()
 Customer.delete_all()
 
 
-customer1 = Customer.new({ 'name' => 'Hannah Green', 'fund' => '20'})
+customer1 = Customer.new({ 'name' => 'Hannah Green', 'funds' => '20'})
 customer1.save()
-customer2 = Customer.new({ 'name' => 'Davina Rose', 'fund' => '15'})
+customer2 = Customer.new({ 'name' => 'Davina Rose', 'funds' => '15'})
 customer2.save()
-customer3 = Customer.new({ 'name' => 'Carl Smith', 'fund' => '30'})
+customer3 = Customer.new({ 'name' => 'Carl Smith', 'funds' => '30'})
 customer3.save()
 
 
